@@ -20,10 +20,10 @@ class App extends React.Component {
       princesses: sortedPrincesses
     });
 
-    const selectedElement = this.state.princesses.find(element => element.id === id);
-    console.log(selectedElement)
+    const selectedPrincess = this.state.princesses.find(element => element.id === id);
+    console.log(selectedPrincess)
 
-    if (selectedElement.clicked) {
+    if (selectedPrincess.clicked) {
 
       var reset = this.state.princesses;
 
@@ -33,11 +33,11 @@ class App extends React.Component {
       this.setState({
         score: 0,
         princesses: reset,
-        message: "Incorrect Guess - Try Again!"
+        message: "Oh no, you guessed wrong..."
       })
     }
     else {
-      selectedElement.clicked = true;
+      selectedPrincess.clicked = true;
       if (this.state.score < 11) {
         this.setState({
           score: this.state.score + 1,
@@ -48,7 +48,6 @@ class App extends React.Component {
             topscore: this.state.topscore + 1,
           });
         }
-        console.log("ORIGINAL", this.state.princesses);
       } if (this.state.score === 11) {
         const clear = this.state.princesses.map(element => {
           return { ...element, clicked: false }
@@ -59,7 +58,6 @@ class App extends React.Component {
           princesses: clear,
           message: "YOU WON!!! REFRESH TO START AGAIN!"
         });
-        console.log("CLEAR: ", clear)
       }
     }
   };
@@ -67,8 +65,7 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar score={this.state.score} topscore={this.state.topscore} message={this.state.message}>
-        <a href="on-change">Disney Clicky Game</a></Navbar>
+        <Navbar score={this.state.score} topscore={this.state.topscore} message={this.state.message}>Walt Disney Clicky Game</Navbar>
         <Jumbotron />
         <div className="container">
           {

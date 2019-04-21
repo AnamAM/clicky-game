@@ -8,3 +8,6 @@
     align-content: flex-start;
 }
 
+#root {
+    background-color: lightpink;
+}

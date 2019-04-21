@@ -9,14 +9,16 @@
     background-color: lightpink;
   }
 
-  .container h1 {
-    margin-top: 18%;
-  }
-
-  .directions {
-    padding-top: 270px;
+  h1 {
+    padding-top: 390px;
+    letter-spacing: 0.1ch;
     font-family: 'WaltographRegular'; 
     font-weight: bolder; 
     font-style: normal; 
-    font-size: 48pt;
+    font-size: 50pt;
+  }
+  
+  h3 {
+    font-family: 'WaltographRegular'; 
+    font-size: 30pt;
   }
