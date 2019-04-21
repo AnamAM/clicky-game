@@ -1,0 +1,23 @@
+nav {
+    font-size: 36px;
+    font-family: 'WaltographRegular'; 
+    font-weight: bolder; 
+    font-style: normal; 
+    padding: 20px;
+    background-color: lightpink;
+    color: white;
+  }
+
+  .title {
+    float: left;
+  }
+  
+  .header {
+    float: left;
+    margin-left: 30%;
+  }
+  .score {
+    float: right;
+  }
+
+  

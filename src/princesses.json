@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "image": "./assets/images/ariel.png",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/aurora.png",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/belle.png",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/cinderalla.png",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "./assets/images/elsa.png",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "./assets/images/jasmine.png",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "./assets/images/merida.png",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "./assets/images/mulan.png",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "./assets/images/pocahontas.png",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "./assets/images/rapunzel.png",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "image": "./assets/images/snow-white.png",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "image": "./assets/images/tiana.png",
+      "clicked": false
+    }
+  ]
